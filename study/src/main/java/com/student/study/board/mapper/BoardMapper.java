@@ -1,10 +1,11 @@
-package com.student.study.mapper;
+package com.student.study.board.mapper;
 
 import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
 
-import com.student.study.dto.Board;
+import com.student.study.board.dto.Board;
+
 
 @Mapper
 public interface BoardMapper {

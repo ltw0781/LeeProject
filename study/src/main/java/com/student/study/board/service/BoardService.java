@@ -1,8 +1,8 @@
-package com.student.study.service;
+package com.student.study.board.service;
 
 import java.util.List;
 
-import com.student.study.dto.Board;
+import com.student.study.board.dto.Board;
 
 public interface BoardService {
     
