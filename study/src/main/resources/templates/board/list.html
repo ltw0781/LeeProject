@@ -6,6 +6,29 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h3>게시글 목록</h3>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>번호</th>
+                <th>제목</th>
+                <th>작성자</th>
+                <th>등록일자</th>
+                <th>수정일자</th>
+            </tr>
+        </thead>
+        <th:block th:each="board : ${boardList}">
+            <tbody>
+                <tr>
+                    <td><span th:text="${board.no}"></span></td>
+                    <td><span th:text="${board.title}"></span></td>
+                    <td><span th:text="${board.writer}"></span></td>
+                    <td><span th:text="${#dates.format( board.createdAt, 'yyyy-MM-dd HH:mm:ss')}"></span></td>
+                    <td><span th:text="${#dates.format( board.updatedAt, 'yyyy-MM-dd HH:mm:ss')}"></span></td>
+                </tr>
+            </tbody>
+        </th:block>
+    </table>
 </body>
 </html>
