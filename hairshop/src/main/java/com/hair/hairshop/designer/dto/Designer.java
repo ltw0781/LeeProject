@@ -1,4 +1,4 @@
-package com.student.study.designer.dto;
+package com.hair.hairshop.designer.dto;
 
 import lombok.Data;
 
