@@ -6,21 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        .inner{
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header .inner .logo a img{
+            height: 120px;
+        }
+
+        .header .inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
         .slide_box img {
             width: 1200px;
             height: 600px;
             object-fit: cover;
         }
-    </style>
+
+        .bottom_area .inner {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .bottom_area .board_area,
+        .bottom_area .notice_area {
+            width: 50%;
+        }
+        </style>
 </head>
 
 <body>
-
     <div class="header">
         <div class="inner">
             <div class="logo">
                 <a href="">
-                    <img src="" alt="로고 이미지">
+                    <img src="/hairshop/test/img/logo_img.png" alt="로고 이미지">
                 </a>
             </div>
             <div class="util_right">
@@ -33,7 +57,7 @@
 
     <nav class="gnb">
         <div class="inner">
-            <ul style="display: flex; justify-content: space-between;">
+            <ul>
                 <li><a href="#none">예약</a></li>
                 <li><a href="#none">디자이너</a></li>
                 <li><a href="#none">게시판</a></li>
@@ -44,10 +68,10 @@
     <div class="slide_box">
         <div class="inner">
             <div class="slide_1">
-                <img src="/test/img/hair_benner1.png" alt="헤어샵베너1">
+                <img src="/hairshop/test/img/hair_benner1.png" alt="헤어샵베너1">
             </div>
             <div class="slide_2">
-                <img src="/test/img/hair_benner2.png" alt="헤어샵베너1">
+                <img src="/hairshop/test/img/hair_benner2.png" alt="헤어샵베너1">
             </div>
             <div class="slide_3"></div>
         </div>
