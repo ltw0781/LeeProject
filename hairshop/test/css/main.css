@@ -1,0 +1,59 @@
+/* 공통영역 */
+.inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 헤더 영역 */
+
+.header .inner .logo a img{
+    height: 60px;
+}
+
+.header .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 네비게이션 영역 */
+
+nav.gnb {}
+
+nav.gnb .inner {}
+
+nav.gnb .inner ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.gnb .inner ul li {}
+
+nav.gnb .inner ul li a {}
+
+
+/* 슬라이드 베너 영역 */
+
+.slide_box img {
+    width: 1200px;
+    height: 600px;
+    object-fit: cover;
+}
+
+/* 게시판 영역 */
+
+.bottom_area {
+
+}
+
+.bottom_area .inner {
+    display: flex;
+}
+
+.bottom_area .inner .board_area {
+    width: 50%;
+}
+
+.bottom_area .inner .notice_area {
+    width: 50%;
+}
