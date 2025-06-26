@@ -1,0 +1,24 @@
+
+/* 공통영역 */
+.inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.top {
+    padding-bottom: 10px;
+}
+.top ul {}
+.top ul li {}
+.top ul li a {}
+
+.bTable {
+    box-sizing: border-box;
+}
+
+.bTable .inner table thead {}
+.bTable .inner table thead tr {}
+.bTable .inner table thead tr th {
+    border: 1px solid black;
+    padding: 3px;
+}
