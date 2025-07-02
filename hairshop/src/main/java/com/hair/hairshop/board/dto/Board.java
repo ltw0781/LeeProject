@@ -1,4 +1,4 @@
-package com.student.study.board.dto;
+package com.hair.hairshop.board.dto;
 
 import java.util.Date;
 

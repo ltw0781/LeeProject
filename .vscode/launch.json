@@ -9,6 +9,16 @@
             "projectName": "study",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HairshopApplication<hairshop>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.hair.hairshop.HairshopApplication",
+            "projectName": "hairshop",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
